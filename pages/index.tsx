@@ -43,22 +43,6 @@ export default function Home() {
     }
   };
 
-  // useEffect(() => {
-  //   fetch("/api/");
-  //   // create("who are you").then((data) => setResult(data));
-  // }, []);
-  // const send = async () => {
-  //   // const handle = async () => {
-  //   //   const result = await create(post);
-  //   //   // setResult(result);
-  //   //   return result;
-  //   // };
-  //   // // handle().then()
-  //   // handle().then((data) => setResult(data));
-  //   const response = await create("who are you");
-  //   return response;
-  // };
-
   // const handle = async () => {
   //   const result = await create("hello world");
   //   return result;
