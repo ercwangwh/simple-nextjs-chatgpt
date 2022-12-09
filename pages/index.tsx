@@ -48,8 +48,6 @@ export default function Home() {
   //   return result;
   // };
 
-  // console.log(handle());
-  // send().then((data) => {
   //   alert(data);
   // });
   return (
