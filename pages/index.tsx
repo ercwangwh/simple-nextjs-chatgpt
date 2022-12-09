@@ -31,15 +31,12 @@ export default function Home() {
     // const res = await create("who are you");
     if (!isLoading) {
       setisLoading(true);
-      const res = await fetch("/api/chat-test", { method: "POST", body: post });
+      // const res = await fetch("/api/chat-test", { method: "POST", body: post });
 
-      const data: ApiData = await res.json();
-      setResult(data.data);
-      // const msg = JSON.stringify(data);
-      // res.body
-      // setResult(res.);
+      // const data: ApiData = await res.json();
+      // setResult(data.data);
+      setResult("暂停暂停");
       setisLoading(false);
-      // console.log(data);
     }
   };
 
